@@ -8,8 +8,16 @@
         body {
             font-family: Arial, Helvetica, sans-serif
         }
+        tbody > tr:nth-child(2n){
+            background-color: rgba(0, 0, 0, 0.2);
+            /* tr:nth-child(odd) siginica PAR
+                tr:nth-child(even) siginica IMPAR
+                */
+        }
         table {
             width: 500px;
+            text-align: center;
+            border-collapse: collapse;
         }
         td, th {
             border: 1px solid black;
@@ -20,6 +28,15 @@
             width: 490px;
             padding: 5px;
             text-align: center;
+        }
+        th {
+            background-color: beige;
+        }
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
     </style>
@@ -37,6 +54,7 @@
         
     -->
     <table>
+        <caption>População das Unidadades Federativas do Brasil</caption>
         <thead>
             <tr>
                 <th>Estado</th>

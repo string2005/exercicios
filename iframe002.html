@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe {
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum corrupti pariatur temporibus velit, quod culpa in laboriosam obcaecati, ipsum accusamus omnis amet quasi excepturi repellat nemo quae natus illo similique?
+    </p>
+        <ul>
+            <li><a href="tabela008.html" target="paginaFrame"> Primeira Pagina</a></li>
+            <li><a href="tabela007.html" target="paginaFrame"> Segunda Pagina</a></li>
+            <li><a href="tabela006.html" target="paginaFrame"> Terceira Pagina</a></li>
+        </ul>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum corrupti pariatur temporibus velit, quod culpa in laboriosam obcaecati, ipsum accusamus omnis amet quasi excepturi repellat nemo quae natus illo similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem rem neque esse nihil! Asperiores saepe recusandae animi doloremque ut repellendus, molestiae quidem, enim nihil laborum cumque, tempora blanditiis harum.
+    </p>
+    <iframe id="tela" name="paginaFrame" src="../projetocordel/index.html">
+        <p>Infelizmente seu navegador nao é compavitel com isso</p>
+    </iframe>
+        <!--
+     <iframe id="tela" name="paginaFrame" srcdoc="<h1> Escolha uma das opções acima para ver o conteudo!</h1>"
+    
+         No exemplo acima usei o SRC para o caminho especifico, no exemplo abaixo usei o SRCDOC para inserir um texto explicativo para o usuario-->
+        
+    </iframe>
+</body>
+</html>
